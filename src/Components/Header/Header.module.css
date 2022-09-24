@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    background-color: #0059ACEB;
+    
+    background-image: url(../Header/img/line.png);
+    
+    height: 200px;
+    padding-top: 15px;
+} 
+.nav:hover{
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.data{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.data p{
+    font-size: 13px;
+    color: white;
+    height: 15px !important;
+}
+.inp{
+    display: flex;
+}
+.inp2{
+    color: rgba(247, 247, 247, 0.9);
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid rgba(247, 247, 247, 0.4);
+    width: 200px !important;
+}
+.block1{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+.lang{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.link{
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    color: white;
+    border-bottom: 1px solid white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logo h1{
+    font-size: 18px;
+    width: 170px;
+    text-align: left;
+    color: white;
+}
+.big{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.block2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 15px;
+}
+.social{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navigation{
+    display: flex;
+    gap: 80px;
+    margin-top: 12px;
+    border-top: 1px solid rgba(247, 247, 247, 0.4);
+    padding-top: 15px;
+    z-index: 1;
+}
+.nav{
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+} 
+.nav:hover{
+    color: rgba(247, 247, 247, 0.4);
+}
+.big2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn{
+    display: none;
+}
+.line{
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+.hover{
+    position: absolute;
+    background-color: white;
+    height: 324px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    padding-left: 350px;
+}
+.bar{ 
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+} 
+.li{
+    width:420px ;
+    text-align: left;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.ul{
+    margin-top: 10px;
+    height: 270px;
+    border-left: 2px solid rgba(7, 106, 200, 0.8);
+}
+.ul1{
+    margin-top: 10px;
+    height: 240px;
+    border-left: 2px solid rgba(7, 106, 200, 0.8);
+}
+.ul2{
+    margin-top: 10px;
+    height: 430px;
+    border-left: 2px solid rgba(7, 106, 200, 0.8);
+}
+.hover2{
+    position: absolute;
+    background-color: white;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    padding-left: 350px;
+}
+.burgmenu{
+    background-color: #0059ACEB;
+    background-image: url(../Header/img/line.png);
+    
+    display: none;
+    margin-top: 9px;
+    visibility:visible;
+    overflow:unset;
+    position: relative;
+    
+}
+
+
+
+
+
+@media (max-width:1450px){
+    .navigation{
+        gap: 60px;
+    }
+    .burgmenu{
+        transition: .5s;
+        z-index: 1 !important;
+    }
+}
+@media (max-width:1400px){
+    .data{
+        gap: 30px;
+        width: 900px !important;
+    }
+    .block1{
+        width: 100%;
+    }
+    .burgmenu{
+        transition: .5s;
+        z-index: 1 !important;
+    }
+}
+
+@media (max-width:1350px){
+    .nav{
+        font-size: 15px;
+    }
+    .navigation{
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+       
+        justify-content: left;
+        text-align: left;
+        padding-left:20px ;
+        height: 450px;
+    }
+    .big2{
+        display: none;
+    }
+    .data p{
+        display: none;
+    }
+    .inp{
+        display: none;
+    }
+    .line{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .line2{
+        width: 80%;
+        height: 1px;
+        background-color: rgba(247, 247, 247, 0.4);
+        margin-top: 20;
+    }
+    .block1{
+        flex-direction: column;
+        gap: 0;
+    }
+    .burgmenu{
+        display: block;
+        justify-content: left;
+    }
+    .btn{
+        background: none;
+        border: none;
+        outline: none;
+        display: block;
+        transition: .5s;
+        margin-top: 17px;
+        margin-left: 35px;
+    }
+    .btn img{
+        width: 56px;
+        height: auto;
+    }
+    .burgmenu{
+        transition: .5s;
+        z-index: 1 !important;
+    }
+}
+@media (max-width:1250px){
+    .navigation{
+        gap: 30px;
+    }
+    .burgmenu{
+        transition: .5s;
+        z-index: 1 !important;
+    }
+   
+}
+@media (max-width:1200px){
+    .line{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .line2{
+        width: 80%;
+        height: 1px;
+        background-color: rgba(247, 247, 247, 0.4);
+        margin-top: 20;
+    }
+    .app{
+        padding-top: 20px;
+        height: 247px;
+    }
+    .lang{
+        margin-top: 20px;
+        height: 35px;
+    }
+
+    .block1{
+        flex-direction: column;
+        gap: 0;
+    }
+    .burgmenu{
+        display: block;
+        justify-content: left;
+    }
+    .btn{
+        background: none;
+        border: none;
+        outline: none;
+        display: block;
+        transition: .5s;
+    }
+    .btn img{
+        width: 56px;
+        height: auto;
+    }
+    .open{
+        height: 450px;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        background-color: #0059ACEB;
+        background-image: url(../Header/img/line.png);
+        justify-content: left;
+        text-align: left;
+        padding-left:20px ;
+        height: 450px;
+    }
+    .burgmenu{
+        transition: .5s;
+        z-index: 1 !important;
+    }
+}
+
+@media (max-width:770px){
+    .block2{
+        flex-direction: column;
+    }
+    .block1{
+        height: 40px;
+    }
+    .app{
+        padding-top: 0;
+    }
+    .burgmenu{
+        transition: .5s;
+        z-index: 1 !important;
+    }
+    .slick-track{
+        width: 400px !important;
+    }
+}

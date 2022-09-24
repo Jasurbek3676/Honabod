@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    padding:20px;
+    padding-top: 0;
+    display: flex;
+    gap: 40px;
+}
+.row1{
+    display: flex;
+    
+}
+.card{
+    border: 1px solid rgba(128, 128, 128, 0.604);
+    background-color: rgba(239, 244, 250, 1);
+    border-radius: 5px;
+    width: 1000px;
+    margin-top: 20px;
+    padding: 15px;
+    display: flex;
+}
+.card img{
+    width: 30px;
+    height: auto;
+}
+.card button{
+    /* display: flex; */
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #007bff;
+}
+.card p{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    text-align: left;
+
+}
+.card p:hover{
+    cursor: pointer;
+  color: #0056b3;  
+}
+.extra{
+    border: 1px solid rgba(128, 128, 128, 0.604);
+    background-color: rgba(239, 244, 250, 1);
+    width: 270px;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.extra p{
+    font-size: 17px;
+    font-weight: 500;
+    color: #007bff;
+    text-align: left;
+}
+.extra p:hover{
+    cursor: pointer;
+  color: #0056b3;  
+}
+.page{
+    margin-top:20px !important;
+}
+
+@media (max-width:1200px){
+    .extra{
+        margin-top: 30px;
+        padding: 20px;
+        width: 1000px;
+    }
+    .extra p{
+        font-size: 19px;
+    }
+    .app{
+        flex-direction: column;
+        gap: 0;
+    }
+}
+@media (max-width:1050px){
+    .card{
+        width: 800px;
+    }
+    .card button{
+        width: 280px;
+    }
+    .extra{
+        width: 800px;
+    }
+    .app{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:840px){
+    .card{
+        width: 600px;
+        flex-direction: column;
+    }
+    .card button{
+        width: 100%;
+    }
+    .extra{
+        width: 600px;
+    }
+    .app{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+@media (max-width:640px){
+    .card{
+        width: 400px;
+    }
+    .extra{
+        width: 400px;
+    }
+    .app{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:440px){
+    .card{
+        width: 260px;
+    }
+    .extra{
+        width: 260px;
+    }
+    .app{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+

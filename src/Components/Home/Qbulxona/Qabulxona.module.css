@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.rightmenu {
+    background-color: rgba(239, 244, 250, 1);
+    padding: 15px;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    border-radius: 0px 0px 20px 20px;
+    width: 80%;
+}
+.boss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rightmenutitle {
+    padding-left: 10px;
+    border-left: 3px solid #076ac8;
+    margin: 10px;
+    font-size: 18px;
+    font-family: 'Roboto-500' , sans-serif;
+}
+
+.rightmenuitem{
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+    margin: 15px 0; 
+    gap: 20px !important;
+}
+
+.rightmenuitem span {
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    height: 100px;
+    background-color: #fff;
+    margin-right: 15px;
+    max-width: 100px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+}
+
+.rightmenuitem img {
+    width: 50px;
+}
+
+.rightmenuitem:hover span {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.16);
+}
+
+.rightmenuitem:hover a {
+    color: #076ac8;
+}
+.rightmenuitem a{
+    width: 225px !important;
+}
+.rightmenuitem a {
+    font-family: 'Roboto-500', sans-serif;
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    color: #1f1f1f;
+    padding: 10px;
+}
+
+.rightmenuitem a:hover {
+    color: #076ac8;
+}
+
+
+@media (max-width: 1500px) {
+    .rightmenu span {
+        max-width: 80px;
+    }
+
+    .rightmenu {
+        border-radius: 0;
+    }
+}
+.lastnews {
+    margin-top: 30px;
+    border-left: 3px solid rgba(7, 106, 200, 1);
+    padding-left: 10px;
+    width: 200px;
+}
+
+.lastnews span {
+    font-family: 'Roboto-500', sans-serif;
+    font-size: 18px;
+    color: rgba(31, 31, 31, 1);
+}
+.rightmenuitem a{
+    text-decoration: none;
+}

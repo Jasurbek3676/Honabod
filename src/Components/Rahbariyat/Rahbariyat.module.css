@@ -1,0 +1,205 @@
+.bla{
+    margin-top: 50px;
+}
+
+.alt2 img{
+width: 310px !important;
+height: 360px !important;
+}
+.bosh{
+    display: flex;
+    gap: 50px;
+    font-size: 25px;
+}
+.tel img {
+    width: 30px;
+    height: 30px;
+}
+.bosh1{
+    display: flex;
+    gap: 300px;
+    margin-left: 360px;
+    margin-top: -250px;
+}
+.but {
+    display: flex;
+    margin-left: 350px;
+    margin-top: 50px;
+    gap:100px;
+}
+.Rahbar h1{
+    margin: 0 !important;
+}
+.asosiy{
+    margin-top: 50px !important;
+}
+.App{
+
+      
+       border: none;
+       
+    
+   }
+   .App p{
+       
+    z-index: 1;
+       width: 736px;
+       height: 150px;
+       border: 1px solid #E9F4FD;
+       background-color:#E9F4FD ;
+   
+   }
+   .App button{
+    
+       border: none;
+       width: 122px;
+       height: 50px;
+       background-color: #E9F4FD;
+   }
+   .App1{
+
+
+    border: none;
+ 
+}
+.App1 p{
+  
+    z-index: 1;
+    width: 736px;
+    height: 150px;
+    border: 1px solid #E9F4FD;
+    background-color:#E9F4FD ;
+
+}
+.App1 button{
+    border: none;
+    width: 122px;
+    height: 50px;
+    background-color: #E9F4FD;
+}
+.App2{
+
+    width: 736px;
+    height: 100px;
+    border: none;
+ 
+}
+.App2 p{
+  
+    z-index: 1;
+    width: 736px;
+    height: 150px;
+    border: 1px solid #E9F4FD;
+    background-color:#E9F4FD ;
+
+}
+.App2 button{
+    border: none;
+    width: 122px;
+    height: 50px;
+    background-color: #E9F4FD;
+}
+.soat h2{
+    font-size: 20px;
+}
+.soat h3{
+    font-size: 20px;
+}
+.asosiy{
+    margin-left: 15px;
+    margin-top: 100px;
+}
+.Rahbar h1 {
+    font-size: 24px;
+   
+    margin-left: 150px;
+}
+@media (max-width: 1231px ) {
+    .bosh1{
+        gap: 200px;
+    }
+}
+@media (max-width: 1131px ) {
+    .bosh1{
+        gap: 150px;
+    }
+}
+@media (max-width: 1083px ) {
+    .but{
+        gap: 50px;
+    }
+    .bosh1{
+        gap: 100px;
+    }
+}
+@media (max-width: 1031px ) {
+    .but{
+        gap: 5px;
+    }
+    .bosh1{
+        gap: 50px;
+    }
+}
+@media (max-width: 981px ) {
+    .but{
+        gap: 30px;
+    }
+    .bosh1{
+        gap: 50px;
+    }
+ .tel{
+    font-size: 16px;
+ }
+
+}
+@media (max-width: 846px ) {
+    .but{
+        gap: 10px;
+    }
+    .bosh1{
+        gap: 20px;
+    }
+}
+
+@media (max-width: 811px ) {
+     .but2{
+        display: none;
+     }
+} 
+.but2{
+    display: block;
+}
+@media (max-width: 770px ) {
+    .but{
+        display: block;
+        display: flex;
+        margin-top: 10px;
+    }
+    .App2{
+        width: 200px;
+    }
+}
+@media (max-width: 815px ) {
+    .bosh1{
+        gap: 10px;
+    }
+}
+@media (max-width: 805px ) {
+    .bosh{
+        flex-direction: column;
+    }
+    .bosh1{
+    margin-top: 0px;
+    margin-left: -10px;
+    }
+    .but{
+        flex-direction: column;
+        margin-left: -10px;
+        width: 189px;
+        height: 336px;
+    }
+    .but p{
+        width: 189px;
+        height: 336px; 
+    }
+}
