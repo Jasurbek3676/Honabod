@@ -14,8 +14,6 @@ const Qabulxona = () => {
 
 
               <br />
-
-
               <div class={s.rightmenuitem}> 
                 <span>
                   <img src={a} alt="" />
